@@ -6,7 +6,6 @@ from xinshuo_video.video_processing import generate_video_from_folder
 	
 if __name__ == '__main__':
 	if len(sys.argv) != 4:
-		#python generate_video_from_folder.py ../../image_2 ../../argo.mp4 5
 		print('Usage: python generate_video_from_folder.py images_dir save_path frame_rate')
 		sys.exit(1)
 
